@@ -273,7 +273,7 @@ end
 )
 L_8_:NewTextBox(
     "Silent Aim Fov",
-    "yes bro i am cool (flash)",
+    "yes bro i am cool mantis",
     function(L_74_arg0)
 	Aiming.FOV = L_74_arg0
 end
@@ -286,7 +286,7 @@ L_8_:NewToggle(
 end
 )
 local L_9_ = L_4_:NewTab("Silent Aimlock")
-local L_10_ = L_9_:NewSection("INSOMNIAC")
+local L_10_ = L_9_:NewSection("Mantis.hub")
 L_10_:NewButton(
     "Silent Aimlock",
     "Key is Q.",
