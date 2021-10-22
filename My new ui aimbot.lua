@@ -27,9 +27,9 @@ end
 )
 
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local L_4_ = L_3_.CreateLib("Lia.Hub", "Ocean")
-local L_5_ = L_4_:NewTab("Aimlock")
-local L_6_ = L_5_:NewSection("Lia.hub")
+local L_4_ = L_3_.CreateLib("Mantis.hub", "Ocean")
+local L_5_ = L_4_:NewTab("Aimlock.eze")
+local L_6_ = L_5_:NewSection("Mantis.hub")
 L_6_:NewButton(
     "Aimlock.eze",
     "Beam niggas down",
@@ -245,7 +245,7 @@ end
 local L_7_ = L_4_:NewTab("Silent Aim.eze")
 local L_8_ = L_7_:NewSection("Mantis.hub")
 L_8_:NewButton(
-    "Silent Aim",
+    "Silent Aim.eze",
     "Silent Aim Toggle Key is T.",
     function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/tayodevelup/imsoniac/main/silentaim", true))()
@@ -260,7 +260,7 @@ end
 )
 L_8_:NewDropdown(
     "Silent Aim Part",
-    "yes bro lia is cool",
+    "yes bro mantis is cool",
     {
 	"Head",
 	"UpperTorso",
@@ -273,7 +273,7 @@ end
 )
 L_8_:NewTextBox(
     "Silent Aim Fov",
-    "yes bro i am cool (lia)",
+    "yes bro i am cool (flash)",
     function(L_74_arg0)
 	Aiming.FOV = L_74_arg0
 end
@@ -286,9 +286,9 @@ L_8_:NewToggle(
 end
 )
 local L_9_ = L_4_:NewTab("Silent Aimlock")
-local L_10_ = L_9_:NewSection("lia.hub")
+local L_10_ = L_9_:NewSection("INSOMNIAC")
 L_10_:NewButton(
-    "Silent Aimlock.eze",
+    "Silent Aimlock",
     "Key is Q.",
     function()
 	_G.KEY = "q"
@@ -519,8 +519,8 @@ L_10_:NewButton(
 	end
 end
 )
-local L_11_ = L_4_:NewTab("Anti-Lock")
-local L_12_ = L_11_:NewSection("lia.hub")
+local L_11_ = L_4_:NewTab("Anti-Lock.eze")
+local L_12_ = L_11_:NewSection("Mantis.hub")
 L_12_:NewButton(
     "Anti-Lock",
     "Key is Z.",
@@ -646,8 +646,8 @@ L_12_:NewButton(
         )
 end
 )
-local L_13_ = L_4_:NewTab("Misc Scripts")
-local L_14_ = L_13_:NewSection("lia.hub")
+local L_13_ = L_4_:NewTab("Misc Scripts.eze")
+local L_14_ = L_13_:NewSection("Mantis.hub")
 L_14_:NewKeybind(
     "Keybind Gui Toggle",
     "h",
@@ -1000,8 +1000,8 @@ L_14_:NewButton(
         )
 end
 )
-local L_15_ = L_4_:NewTab("Teleports")
-local L_16_ = L_15_:NewSection("lia.hub")
+local L_15_ = L_4_:NewTab("Teleports.eze")
+local L_16_ = L_15_:NewSection("Mantis.hub")
 L_16_:NewButton(
     "Admin Base",
     "fr",
@@ -1069,9 +1069,9 @@ L_16_:NewButton(
 	stopTracks()
 end
 )
-local L_17_ = L_4_:NewTab("ESP")
+local L_17_ = L_4_:NewTab("ESP.eze")
 local L_18_ = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
-local L_19_ = L_17_:NewSection("lia.hub")
+local L_19_ = L_17_:NewSection("Mantis.hub")
 L_19_:NewToggle(
     "ESP",
     "ESP",
@@ -1102,7 +1102,7 @@ end
 )
 L_6_:NewLabel("credits to Add#2913")
 local L_20_ = L_4_:NewTab("Animation Changer")
-local L_21_ = L_20_:NewSection("lia.hub")
+local L_21_ = L_20_:NewSection("Mantis.hub")
 L_21_:NewButton(
     "Zombie And OldSchool",
     "you are cool",
