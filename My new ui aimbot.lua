@@ -27,9 +27,9 @@ end
 )
 
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local L_4_ = L_3_.CreateLib("Mantis.hub", "Ocean")
+local L_4_ = L_3_.CreateLib("Code.Ware", "BloodTheme")
 local L_5_ = L_4_:NewTab("Aimlock.eze")
-local L_6_ = L_5_:NewSection("Mantis.hub")
+local L_6_ = L_5_:NewSection("Code.Ware")
 L_6_:NewButton(
     "Aimlock.eze",
     "Beam niggas down",
@@ -243,7 +243,7 @@ L_6_:NewDropdown(
 end
 )
 local L_7_ = L_4_:NewTab("Silent Aim.eze")
-local L_8_ = L_7_:NewSection("Mantis.hub")
+local L_8_ = L_7_:NewSection("Code.Ware")
 L_8_:NewButton(
     "Silent Aim.eze",
     "Silent Aim Toggle Key is T.",
@@ -260,7 +260,7 @@ end
 )
 L_8_:NewDropdown(
     "Silent Aim Part",
-    "yes bro mantis is cool",
+    "yes bro code is cool",
     {
 	"Head",
 	"UpperTorso",
@@ -273,7 +273,7 @@ end
 )
 L_8_:NewTextBox(
     "Silent Aim Fov",
-    "yes bro i am cool mantis",
+    "yes bro i am cool code",
     function(L_74_arg0)
 	Aiming.FOV = L_74_arg0
 end
@@ -286,7 +286,7 @@ L_8_:NewToggle(
 end
 )
 local L_9_ = L_4_:NewTab("Silent Aimlock")
-local L_10_ = L_9_:NewSection("Mantis.hub")
+local L_10_ = L_9_:NewSection("Code.Ware")
 L_10_:NewButton(
     "Silent Aimlock",
     "Key is Q.",
@@ -520,7 +520,7 @@ L_10_:NewButton(
 end
 )
 local L_11_ = L_4_:NewTab("Anti-Lock.eze")
-local L_12_ = L_11_:NewSection("Mantis.hub")
+local L_12_ = L_11_:NewSection("Code.Ware")
 L_12_:NewButton(
     "Anti-Lock",
     "Key is Z.",
@@ -647,7 +647,7 @@ L_12_:NewButton(
 end
 )
 local L_13_ = L_4_:NewTab("Misc Scripts.eze")
-local L_14_ = L_13_:NewSection("Mantis.hub")
+local L_14_ = L_13_:NewSection("Code.Ware")
 L_14_:NewKeybind(
     "Keybind Gui Toggle",
     "h",
@@ -1001,7 +1001,7 @@ L_14_:NewButton(
 end
 )
 local L_15_ = L_4_:NewTab("Teleports.eze")
-local L_16_ = L_15_:NewSection("Mantis.hub")
+local L_16_ = L_15_:NewSection("Code.Ware")
 L_16_:NewButton(
     "Admin Base",
     "fr",
@@ -1071,7 +1071,7 @@ end
 )
 local L_17_ = L_4_:NewTab("ESP.eze")
 local L_18_ = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
-local L_19_ = L_17_:NewSection("Mantis.hub")
+local L_19_ = L_17_:NewSection("Code.Ware")
 L_19_:NewToggle(
     "ESP",
     "ESP",
@@ -1100,9 +1100,9 @@ L_19_:NewToggle(
 	L_18_.Boxes = L_204_arg0
 end
 )
-L_6_:NewLabel("credits to Add#2913")
+L_6_:NewLabel("credits to Code2Godly#2913")
 local L_20_ = L_4_:NewTab("Animation Changer")
-local L_21_ = L_20_:NewSection("Mantis.hub")
+local L_21_ = L_20_:NewSection("Code.Ware")
 L_21_:NewButton(
     "Zombie And OldSchool",
     "you are cool",
