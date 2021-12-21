@@ -1104,7 +1104,7 @@ L_6_:NewLabel("credits to Code2Godly#2913")
 local L_20_ = L_4_:NewTab("Animation Changer")
 local L_21_ = L_20_:NewSection("Code.Ware")
 L_21_:NewButton(
-    "Zombie And OldSchool",
+    "Zombie And Ninja",
     "you are cool",
     function()
 	local L_205_ = game.Players.LocalPlayer.Character.Animate
@@ -1112,8 +1112,8 @@ L_21_:NewButton(
 	L_205_.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
 	L_205_.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
 	L_205_.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
-	L_205_.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
-	L_205_.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319839762"
+	L_205_.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+	L_205_.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
 end
 )
 L_21_:NewButton(
